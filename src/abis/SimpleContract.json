@@ -1,0 +1,191 @@
+{
+  "contractName": "SimpleContract",
+  "abi": [
+    {
+      "inputs": [],
+      "stateMutability": "nonpayable",
+      "type": "constructor"
+    }
+  ],
+  "metadata": "{\"compiler\":{\"version\":\"0.8.11+commit.d7f03943\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"constructor\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"project:/src/contracts/SwapEth.sol\":\"SimpleContract\"},\"evmVersion\":\"london\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"project:/src/contracts/SwapEth.sol\":{\"keccak256\":\"0x84b6f8dfa09a276bf877a7f4b33443b64c2de01edaf3873078487a6cb1b960d3\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://566e59d2e479c7b7b82578ee144ea1986c4848e7bac5753a93c90b306e3bf010\",\"dweb:/ipfs/QmSTrTeFBgdj8sqyWdP7PDzzNrnEzYBAFnbq9uMAYGafeK\"]}},\"version\":1}",
+  "bytecode": "0x6080604052348015600f57600080fd5b50603f80601d6000396000f3fe6080604052600080fdfea2646970667358221220b0c6b120136e66b801c4e1134f01f5285a6ba9bfd76027ca1cf969f9dc21ac4164736f6c634300080b0033",
+  "deployedBytecode": "0x6080604052600080fdfea2646970667358221220b0c6b120136e66b801c4e1134f01f5285a6ba9bfd76027ca1cf969f9dc21ac4164736f6c634300080b0033",
+  "immutableReferences": {},
+  "generatedSources": [],
+  "deployedGeneratedSources": [],
+  "sourceMap": "58:51:1:-:0;;;86:21;;;;;;;;;;58:51;;;;;;",
+  "deployedSourceMap": "58:51:1:-:0;;;;;",
+  "source": " // SPDX-License-Identifier: MIT\npragma solidity ^0.8.3;\n\ncontract SimpleContract {\n  constructor()   {\n  }\n}\n",
+  "sourcePath": "/Users/muhammadumersaleem/Documents/Umer_Saleem/TRUFFLE /DaPPUniversitySwap/eth_swap/src/contracts/SwapEth.sol",
+  "ast": {
+    "absolutePath": "project:/src/contracts/SwapEth.sol",
+    "exportedSymbols": {
+      "SimpleContract": [
+        64
+      ]
+    },
+    "id": 65,
+    "license": "MIT",
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 59,
+        "literals": [
+          "solidity",
+          "^",
+          "0.8",
+          ".3"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "33:23:1"
+      },
+      {
+        "abstract": false,
+        "baseContracts": [],
+        "canonicalName": "SimpleContract",
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "fullyImplemented": true,
+        "id": 64,
+        "linearizedBaseContracts": [
+          64
+        ],
+        "name": "SimpleContract",
+        "nameLocation": "67:14:1",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "body": {
+              "id": 62,
+              "nodeType": "Block",
+              "src": "102:5:1",
+              "statements": []
+            },
+            "id": 63,
+            "implemented": true,
+            "kind": "constructor",
+            "modifiers": [],
+            "name": "",
+            "nameLocation": "-1:-1:-1",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 60,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "97:2:1"
+            },
+            "returnParameters": {
+              "id": 61,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "102:0:1"
+            },
+            "scope": 64,
+            "src": "86:21:1",
+            "stateMutability": "nonpayable",
+            "virtual": false,
+            "visibility": "public"
+          }
+        ],
+        "scope": 65,
+        "src": "58:51:1",
+        "usedErrors": []
+      }
+    ],
+    "src": "33:77:1"
+  },
+  "legacyAST": {
+    "absolutePath": "project:/src/contracts/SwapEth.sol",
+    "exportedSymbols": {
+      "SimpleContract": [
+        64
+      ]
+    },
+    "id": 65,
+    "license": "MIT",
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 59,
+        "literals": [
+          "solidity",
+          "^",
+          "0.8",
+          ".3"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "33:23:1"
+      },
+      {
+        "abstract": false,
+        "baseContracts": [],
+        "canonicalName": "SimpleContract",
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "fullyImplemented": true,
+        "id": 64,
+        "linearizedBaseContracts": [
+          64
+        ],
+        "name": "SimpleContract",
+        "nameLocation": "67:14:1",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "body": {
+              "id": 62,
+              "nodeType": "Block",
+              "src": "102:5:1",
+              "statements": []
+            },
+            "id": 63,
+            "implemented": true,
+            "kind": "constructor",
+            "modifiers": [],
+            "name": "",
+            "nameLocation": "-1:-1:-1",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 60,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "97:2:1"
+            },
+            "returnParameters": {
+              "id": 61,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "102:0:1"
+            },
+            "scope": 64,
+            "src": "86:21:1",
+            "stateMutability": "nonpayable",
+            "virtual": false,
+            "visibility": "public"
+          }
+        ],
+        "scope": 65,
+        "src": "58:51:1",
+        "usedErrors": []
+      }
+    ],
+    "src": "33:77:1"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.8.11+commit.d7f03943.Emscripten.clang"
+  },
+  "networks": {},
+  "schemaVersion": "3.4.5",
+  "updatedAt": "2022-02-24T11:34:52.605Z",
+  "devdoc": {
+    "kind": "dev",
+    "methods": {},
+    "version": 1
+  },
+  "userdoc": {
+    "kind": "user",
+    "methods": {},
+    "version": 1
+  }
+}
